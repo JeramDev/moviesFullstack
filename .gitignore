@@ -3,4 +3,5 @@ node_modules
 .eslintignore
 tsconfig.json
 dist
-__*
+ejercicios.md
+scripts

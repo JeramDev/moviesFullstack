@@ -1,6 +1,6 @@
-import express from 'express';
-const app = express();
-import moviesRouter from './api/movies/moviesRoutes'
+import express, { Application } from 'express';
+const app:Application = express();
+import moviesRouter from './api/movies/moviesRoutes';
 
 app.use(express.json());
 app.use('/movies', moviesRouter);
